@@ -18,7 +18,7 @@
         
             <div class="row">
                 <div class="col-sm-3">Schalm</div>
-                <div class="col" class="col-sm-3">The</div>
+                <div class="col-sm-3" style="background-color: orange;">The</div>
                 <div class="col-sm-3">Best</div>
             </div>
         </div>
