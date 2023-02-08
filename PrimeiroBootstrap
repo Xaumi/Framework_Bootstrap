@@ -4,6 +4,7 @@
         <title>Bootstrap 4 Example</title>
         <meta charset="utf-8">
         <meta name="viewport" content="widht=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Primeiro Bootstrap.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -13,12 +14,12 @@
         
         <div class="container">
             <h1>My First Bootstrep Page</h1>
-            <p>This is some text</p>
+            <p>Isso é apenas um texto!</p>
         
             <div class="row">
-                <div class="col">Schalm</div>
-                <div class="col">The</div>
-                <div class="col">Best</div>
+                <div class="col-sm-3">Schalm</div>
+                <div class="col" class="col-sm-3">The</div>
+                <div class="col-sm-3">Best</div>
             </div>
         </div>
 
