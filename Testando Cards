@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <title>Testando Cards</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="widht=device-width, initial-scale=1">
+        <link rel="stylesheet" href="JornalPrimeiraPagina.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+    
+    <div class="container">
+        <h2>Cards and Grids</h2>
+        
+        <div class="row">
+
+            <div class="col">
+                <div class="card" style="width: 300px;">
+                    <img class="card-img-top" src="https://images2.minutemediacdn.com/image/upload/c_crop,w_4000,h_2250,x_0,y_194/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/90min_pt-BR_international_web/01gv6f6dq3xq4hgwsy4f.jpg" alt="Card Image" style="width: 100%;">
+                    <div class="card-body">
+                        <h4 class="card-title">Anão Messi</h4>
+                        <p>Lionel Andrés Messi Cuccittini é um futebolista argentino que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Argentina, onde, atuando como capitão, venceu a Copa do Mundo do Catar de 2022.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+.
+            <div class="col">
+                <div class="card" style="width: 300px">
+                    <img class="card-img-top" src="https://images2.minutemediacdn.com/image/upload/c_crop,w_4000,h_2250,x_0,y_194/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/90min_pt-BR_international_web/01gv6f6dq3xq4hgwsy4f.jpg" alt="Card Image" style="width: 100%;">
+                    <div class="card-body">
+                        <h4 class="card-title">Anão Messi</h4>
+                        <p>Lionel Andrés Messi Cuccittini é um futebolista argentino que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Argentina, onde, atuando como capitão, venceu a Copa do Mundo do Catar de 2022.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 300px">
+                    <img class="card-img-top" src="https://images2.minutemediacdn.com/image/upload/c_crop,w_4000,h_2250,x_0,y_194/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/90min_pt-BR_international_web/01gv6f6dq3xq4hgwsy4f.jpg" alt="Card Image" style="width: 100%;">
+                    <div class="card-body">
+                        <h4 class="card-title">Anão Messi</h4>
+                        <p>Lionel Andrés Messi Cuccittini é um futebolista argentino que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Argentina, onde, atuando como capitão, venceu a Copa do Mundo do Catar de 2022.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <br>
+
+
+        <div class="row">
+
+            <div class="col">
+                <div class="card" style="width: 300px;">
+                    <img class="card-img-top" src="https://pbs.twimg.com/media/E8tyqB7WQAIjm6U.jpg" alt="Card Image" style="width: 100%;">
+                    <div class="card-body">
+                        <h4 class="card-title">Ney Calvão</h4>
+                        <p>Neymar da Silva Santos Júnior é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+.
+            <div class="col">
+                <div class="card" style="width: 300px">
+                    <img class="card-img-top" src="https://pbs.twimg.com/media/E8tyqB7WQAIjm6U.jpg" alt="Card Image" style="width: 100%;">
+                    <div class="card-body">
+                        <h4 class="card-title">Ney Calvão</h4>
+                        <p>Neymar da Silva Santos Júnior é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 300px">
+                    <img class="card-img-top" src="https://pbs.twimg.com/media/E8tyqB7WQAIjm6U.jpg" alt="Card Image" style="width: 100%;">
+                    <div class="card-body">
+                        <h4 class="card-title">Ney Calvão   </h4>
+                        <p>Neymar da Silva Santos Júnior é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+
+
+            
+
+        </div>
+
+
+    </div>
