@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#flip").click(function(){
+                $("#panel1").slideToggle("slow");
+                $("#panel2").slideToggle("slow");
+                $("#panel3").slideToggle("slow");
+                $("#panel4").slideToggle("slow");
+            });
+        });
+    </script>
+
+    <style>
+        #panel, #flip {
+            padding: 5px;
+            text-align: center;
+            background-color: #e5eecc;
+            border: solid 1px #c3c3c3;
+        }
+
+        .panel {
+            padding: 50px;
+            display: none;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><div id="flip">Lista de Compras</div></td>
+            <td><div class="panel" id="panel1">Frutas</div></td>
+            <td><div class="panel" id="panel2">Verduras</div></td>
+            <td><div class="panel" id="panel3">Grãos</div></td>
+            <td><div class="panel" id="panel4">Vale Picanha</div></td>
+        </tr>
+
+    </table>
+</body>
+</html>
